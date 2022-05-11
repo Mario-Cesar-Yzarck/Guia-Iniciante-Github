@@ -12,4 +12,16 @@ Para salvar um projeto da sua máquina para o github:
 	- Faça: git commit -m 'first commit';
 	- Faça: git push -u origin main;
 	- Atualize a página "Quick setup — if you’ve done this kind of thing before";
-	- Com o repositório 'linkado' entre máquina e github você poderá salvar as alterações no projeto usando "git add ." seguido de "git commit -m 'mensagem'" e depois enviado com "git push"
+	- Com o repositório 'linkado' entre máquina e github você poderá salvar as alterações no projeto após acessá-lo no terminal usando:
+		"git add ." 
+		"git commit -m 'mensagem'" 
+		"git push"
+
+Para salvar um repositório do github na sua máquina:	
+	- Na página do repositório no github click em Code e depois copie a linha necessária para fazer um clone. Exemplo: https://github.com/Meu-Github/Exemplo-Repositorio.git
+	- No terminal acesse a pasta destino onde deseja salvar o repositório;
+	- Faça: git clone https://github.com/Meu-Github/Exemplo-Repositorio.git;
+	- Com o repositório 'linkado' entre máquina e github você poderá salvar as alterações no projeto após acessá-lo no terminal usando:
+		"git add ." 
+		"git commit -m 'mensagem'" 
+		"git push"
