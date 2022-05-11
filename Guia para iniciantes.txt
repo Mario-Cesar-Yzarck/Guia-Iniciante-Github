@@ -1,3 +1,15 @@
-- Projeto da máquina para github:
+Para salvar um projeto da sua máquina para o github:
 	- Com o projeto (pastas e arquivos) no meu PC;
-	- Crie um novo repositório no Github
+	- Crie um novo repositório no Github com o nome do projeto;
+	- Na página "Quick setup — if you’ve done this kind of thing before" espere;
+	- Abra o terminal que costuma usar;
+	- Acesse o projeto no terminal;
+	- Observe "…or create a new repository on the command line";
+	- Faça: git init;
+	- Faça: git branch -M main;
+	- Faça: git remote origin https://github.com/MeuNome/NomeRepositorio.git;
+	- Faça: git add .;
+	- Faça: git commit -m 'first commit';
+	- Faça: git push -u origin main;
+	- Atualize a página "Quick setup — if you’ve done this kind of thing before";
+	- Com o repositório 'linkado' entre máquina e github você poderá salvar as alterações no projeto usando "git add ." seguido de "git commit -m 'mensagem'" e depois enviado com "git push"
