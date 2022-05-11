@@ -26,7 +26,7 @@ Para salvar um repositório do github na sua máquina:
 		"git commit -m 'mensagem'" 
 		"git push"
 
-Observação: caso esteja trabalhando no mesmo projeto em duas máquinas diferentes faça um git pull quando tiver alterações realizadas de uma máquina para a outra. 
+Observação: caso esteja trabalhando no mesmo projeto em duas máquinas diferentes faça um git pull (após o commit e antes do push) quando tiver alterações realizadas de uma máquina para a outra. 
 Isso atualiza o projeto na máquina com relação ao que está no repositório.
 Observação2: após o primeiro commit sempre que estiver apenas alterando arquivos já existentes pode usar 'git commit -am 'mensagem' no lugar de fazer git add . e depois git commit -m 'mensagem'.
 
