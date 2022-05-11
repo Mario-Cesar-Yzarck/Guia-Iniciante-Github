@@ -1,0 +1,3 @@
+- Projeto da máquina para github:
+	- Com o projeto (pastas e arquivos) no meu PC;
+	- Crie um novo repositório no Github
